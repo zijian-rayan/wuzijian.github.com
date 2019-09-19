@@ -329,11 +329,11 @@ post_wordcount:
 # Wechat Subscriber
 wechat_subscriber:
   enabled: true
-  qcode: /path/zijian.jpg
+  qcode: /assets/zijian.png
   description: 欢迎添加我的微信：
   
 reward_comment: 虽然我觉得没人会打赏，但是放上来吧，说不定呢！
-wechatpay: /path/wechat-reward-image.jpg
+wechatpay: /assets/wechat-reward-image.png
 
 
 
