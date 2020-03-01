@@ -218,7 +218,7 @@ font:
 social:
   #LinkLabel: Link
     To English Version(Google translation): http://translate.google.com/translate_c?hl=en&sl=zh-CN&tl=en&u=https://wuzijian.cf
-    新主页: http://wuzijian.tk
+    主页: https://wuzijian.tech
     GitHub: https://github.com/zijian-rayan
     CSDN: https://blog.csdn.net/zijian_
     图虫: https://tuchong.com/1329442/
@@ -260,7 +260,7 @@ social_icons:
   车坛影协: plane
   淘宝网店: shopping-cart
   Timer:  heartbeat
-  女朋友的马蜂窝: eye
+  马蜂窝: eye
 
 # Sidebar Avatar
 in directory: 
