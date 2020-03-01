@@ -2,10 +2,10 @@
 # Jekyll & Global Configuration
 ## Docs: https://jekyllrb.com/docs/configuration/
 # ---------------------------------------------------------------
-
+#version 1.0.0
 # Site
 title: Hello, it's me.
-subtitle:
+subtitle: 我是吴子健
 description: 这是我的个人博客
 author: Logos
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
@@ -118,11 +118,12 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
+  categories: /categories/
+  about: /about/
   archives: /archives/
-  #tags: /tags/
+  tags: /tags/
   #github: /github/
-  #sitemap: /sitemap.xml
+  sitemap: /english.html
   #commonweal: /404.html
 
 
@@ -135,7 +136,7 @@ menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
-  about: user
+  about: user-circle
   categories: th
   schedule: calendar
   tags: tags
@@ -216,9 +217,22 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
   #LinkLabel: Link
+    To English Version(Google translation): http://translate.google.com/translate_c?hl=en&sl=zh-CN&tl=en&u=https://wuzijian.cf
+    新主页: http://wuzijian.tk
     GitHub: https://github.com/zijian-rayan
     CSDN: https://blog.csdn.net/zijian_
-    Master: https://www.universite-paris-saclay.fr/fr/formation/master/m2-systemes-embarques-et-traitement-de-linformation-seti#presentation-m2
+    图虫: https://tuchong.com/1329442/
+    Weibo: https://www.weibo.com/2634398473/
+    车坛影协: http://www.ctps.cn/userpage.asp?userid=marcus
+    淘宝网店: https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w137644-21723287083.26.3c0a50deWl9NMy&id=595305568278
+    Timer:  https://zijian-rayan.github.io/first-webpage-timer.github.io/
+    马蜂窝: http://www.mafengwo.cn/u/48964184.html
+    Resume Android: https://wuzijian.cf/Resume%20-%20android%20-%20english.pdf
+    Resume Images: https://wuzijian.cf/Resume%20-%20Images%20-%20english.pdf
+    Resume GPU: https://wuzijian.cf/Resume%20-%20GPU%20-%20english.pdf
+    简历-Android:  https://wuzijian.cf/Resume%20-%20android.pdf
+    简历-Images:  https://wuzijian.cf/Resume%20-%20Images.pdf
+    简历-软件工程师:  https://wuzijian.cf/Resume%20-%20SoftWare.pdf
 
 
 # Social Links Icons
@@ -230,17 +244,31 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
+  To English Version(Google translation): language
   GitHub: github
   Twitter: twitter
   Weibo: weibo
-  Master: university
-
+  车坛影协: university
+  CSDN: bar-chart
+  图虫: photo
+  Resume Android:  download
+  Resume Images:  download
+  Resume GPU: download
+  简历-Android:  download
+  简历-Images:  download
+  简历-软件工程师:  download
+  车坛影协: plane
+  淘宝网店: shopping-cart
+  Timer:  heartbeat
+  女朋友的马蜂窝: eye
 
 # Sidebar Avatar
 in directory: 
 avatar: assets/myphoto.png
 
+# SNS settings
 
+email: "wuzijian@wuzijian.cf"
 # Table Of Contents in the Sidebar
 toc:
   enable: true
@@ -322,7 +350,7 @@ post_meta:
 # Post wordcount display settings
 post_wordcount:
   item_text: true
-  wordcount: false
+  wordcount: true
   min2read: false
   separated_meta: true
 
@@ -356,7 +384,7 @@ post_copyright:
 #   image: url-of-image   - Images's url
 custom_logo:
   enabled: false
-  image:
+  image: 
 
 
 # Code Highlight theme
@@ -373,7 +401,7 @@ highlight_theme: normal
 # MathJax Support
 mathjax:
   enable: true
-  per_page: false
+  per_page: true
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
@@ -607,7 +635,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: true
+canvas_nest: false
 
 # three_waves
 three_waves: false
