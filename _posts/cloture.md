@@ -1,3 +1,13 @@
+---
+published: true
+title: 法国银行账户关乎操作
+category: chat
+tags: 
+  - others
+layout: post
+---
+<meta name="referrer" content="never">
+
 Bonjour,
 
 Je suis Zijian WU, je souhaite fermer mon compte bancaire, y compris ma carte bancaire qui a expiré en avril. Mais je suis en Chine maintenant et je ne peux pas me rendre à la banque pour soumettre les documents nécessaires en personne. Je n'utilise plus cette compte et carte bancaire mais l'assurance déduit toujours de l'argent de la carte bancaire tous les mois. Hier, j'ai payé la cotisation d'assurance.
